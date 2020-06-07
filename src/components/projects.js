@@ -19,7 +19,9 @@ toggleCategories() {
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://create-react-app.dev/img/logo-og.png) center / cover'}}>Sprint Drink Generator</CardTitle>
                     <CardText>Sprint Drink generator</CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <a href='https://github.com/MikePerrigo/drink-generator' target="_blank">
+                            <Button colored>GitHub</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -30,7 +32,9 @@ toggleCategories() {
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://create-react-app.dev/img/logo-og.png) center / cover'}}>Portfolio Website</CardTitle>
                     <CardText>Portfolio website build via React</CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <a href='https://github.com/MikePerrigo/portfolio-website' target="_blank">
+                                <Button colored>GitHub</Button>
+                            </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
