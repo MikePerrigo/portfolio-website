@@ -10,20 +10,20 @@ function App() {
         <Layout>
             <Header className="header-color" title="My Portfolio" scroll>
                 <Navigation>
+                    <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/contact">Contact</Link>
-                    <Link to="/">Home</Link>
                 </Navigation>
             </Header>
             <Drawer>
                 <Navigation>
+                    <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/contact">Contact</Link>
-                    <Link to="/">Home</Link>
                 </Navigation>
             </Drawer>
             <Content>

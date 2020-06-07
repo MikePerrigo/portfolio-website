@@ -47,9 +47,9 @@ toggleCategories() {
     render() {
         return(
             <div className="category-tabs">
-                <Tabs activeTab = {this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab>React</Tab>
-                    <Tab>Python</Tab>
+                <Tabs style={{paddingTop: "5px", paddingBottom: "5px"}} activeTab = {this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
+                    <Tab style={{fontSize: "30px"}}>React</Tab>
+                    <Tab style={{fontSize: "30px"}}>Python</Tab>
                 </Tabs>
 
                 <Grid>
