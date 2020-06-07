@@ -51,6 +51,11 @@
   padding: 2em;
 }
 
+.category-tabs {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .contact-body {
   margin: auto;
   position: fixed;
