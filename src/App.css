@@ -51,11 +51,6 @@
   padding: 2em;
 }
 
-.category-tabs {
-  font-size: 40px;
-  font-weight: bold;
-}
-
 .contact-body {
   margin: auto;
   position: fixed;
@@ -111,4 +106,10 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.resume-right-col {
+  background: black;
+  color: white;
+  padding-left: 2em;
 }
