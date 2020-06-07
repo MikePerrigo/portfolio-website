@@ -26,9 +26,10 @@ class Resume extends React.Component {
                         <hr style={{borderTop: '3px solid gray', width: '75%'}}/>
                         <h5>Address</h5>
                         <p>4303 Princeton Way, Westford, MA  01886</p>
-                        <Link to='/contact' target="_blank">
-                            Contact Info
-                        </Link>
+                        <h5>Phone</h5>
+                        <p>(978) 319-1523</p>
+                        <h5>Email</h5>
+                        <p>michael.perrigo@gmail.com</p>
                         <hr style={{borderTop: '3px solid gray', width: '75%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
