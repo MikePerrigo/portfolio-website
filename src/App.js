@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="demo-big-content">
         <Layout>
-            <Header title="Title" scroll>
+            <Header title="My Portfolio" scroll>
                 <Navigation>
                     <a href="#">Resume</a>
                     <a href="#">Projects</a>
@@ -14,7 +14,7 @@ function App() {
                     <a href="#">Contact</a>
                 </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer>
                 <Navigation>
                     <a href="#">Resume</a>
                     <a href="#">Projects</a>
