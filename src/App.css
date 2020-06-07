@@ -52,7 +52,6 @@
 }
 
 .contact-body {
-  background-color: gray;
   margin: auto;
   position: fixed;
   width: 100%;
@@ -65,11 +64,35 @@
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: 80%;
   background: white;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list {
+  width: 80%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
 }
 
 .social-links {
