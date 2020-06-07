@@ -20,7 +20,7 @@ toggleCategories() {
                     <CardText>Sprint Drink generator</CardText>
                     <CardActions border>
                         <a href='https://github.com/MikePerrigo/drink-generator' target="_blank">
-                            <Button colored>GitHub</Button>
+                            <Button colored>Github</Button>
                         </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
@@ -33,7 +33,7 @@ toggleCategories() {
                     <CardText>Portfolio website build via React</CardText>
                     <CardActions border>
                         <a href='https://github.com/MikePerrigo/portfolio-website' target="_blank">
-                                <Button colored>GitHub</Button>
+                                <Button colored>Github</Button>
                             </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
