@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Grid, Cell } from 'react-mdl';
+import Experience from './Experience';
+import ExperienceTimeline from './timeline';
 
 class Resume extends React.Component {
     render() {
         return(
             <div>
                 <Grid>
-                    <Cell col={4}>
+                    <Cell col={4} className="resume-left-col">
                         <div style={{textAlign: 'center'}}>
                             <img src="https://i.ya-webdesign.com/images/avatar-png-icon-6.png"
                             alt="Mike"
@@ -33,7 +35,7 @@ class Resume extends React.Component {
                         <hr style={{borderTop: '3px solid gray', width: '75%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
-                        <h2>Experience</h2>
+                        <ExperienceTimeline />
                     </Cell>
                 </Grid>
             </div>

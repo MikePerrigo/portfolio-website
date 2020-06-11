@@ -109,7 +109,6 @@
 }
 
 .resume-right-col {
-  background: black;
-  color: white;
-  padding-left: 2em;
+  background: white;
+  color: black;
 }
