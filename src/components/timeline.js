@@ -84,6 +84,16 @@ class ExperienceTimeline extends React.Component{
             >
                 <h3 style={{ color: 'black' }}>Loadspring Solutions</h3>
                 <h4 style={{ color: 'black' }}>Solutions Architect</h4>
+                <ul>
+                    <li>Create infrastructure, software and integration diagrams. </li>
+                    <li>Primary responder for security and risk assessments from customers</li>
+                    <li>Ensure compliance with customer security and infrastructure requirements</li>
+                    <li>Designed, Developed, Tested and Implemented “Image Map Tool” though HTML/XML
+                         – used for live demonstrations with no network connection</li>
+                    <li>Performance testing and benchmarking both internally and with customer environments</li>
+                    <li>New application qualification and Quality Assurance</li>
+                    <li>Work with development to identify and work through break-fixes and bugs</li>
+                </ul>
 
             </TimelineItem>
             <TimelineItem
@@ -101,7 +111,18 @@ class ExperienceTimeline extends React.Component{
                 <h4 style={{ color: 'black' }}>SQA Engineer</h4>
                 <ul>
                     <li>Help grow UI from wireframe documents to production software.</li>
-                    
+                    <li>Establish test procedures and SOP</li>
+                    <li>Execute documented and ad-hoc manual tests bug fixes, new releases and stability</li>
+                    <li>Develop new release smoke-test and train development on how to execute</li>
+                    <li>Responsible for training new SQA employees on extensive manual testing. </li>
+                    <li>Automate software testing using SilkTest (Junit)</li>
+                    <li>Set up networking for all systems, both internal (workgroups) and external (static)</li>
+                    <li>Setup, implement and test internal remote monitoring procedure using VPN/VNC</li>
+                    <li>Create sandbox machines and integrate remote testing for beta customers</li>
+                    <li>Defect Tracking using Microsoft TFS</li>
+                    <li>Database manipulation and management through MySQL.</li>
+                    <li>Manage time allocation and uptime on all instruments for entire company</li>
+                    <li>Work with Systems Engineering to implement software (flash) to drive robotics and diagnose hardware issues.</li>
                 </ul>
             </TimelineItem>
         </Timeline>

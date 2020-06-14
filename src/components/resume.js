@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, ProgressBar } from 'react-mdl';
 import Experience from './Experience';
 import ExperienceTimeline from './timeline';
 
